@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="116" started-at="2017-02-05T23:52:42Z" finished-at="2017-02-05T23:52:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="116" started-at="2017-02-05T23:52:42Z" finished-at="2017-02-05T23:52:42Z">
+      <class name="com.epam.dao.impl.TstClientService">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="beforeClass" is-config="true" duration-ms="22" started-at="2017-02-06T02:52:42Z" finished-at="2017-02-06T02:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="tstRegistrationNegative(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstRegistrationNegative" duration-ms="16" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderTwo" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = admin, password = admin
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstRegistrationNegative -->
+        <test-method status="PASS" signature="tstRegistrationNegative(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstRegistrationNegative" duration-ms="0" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderTwo" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = login, password = password
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstRegistrationNegative -->
+        <test-method status="PASS" signature="tstRegistrationNegative(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstRegistrationNegative" duration-ms="0" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderTwo" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = name, password = 1234
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstRegistrationNegative -->
+        <test-method status="PASS" signature="tstRegistrationPositive(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstRegistrationPositive" duration-ms="0" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderOne" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = hello, password = world
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstRegistrationPositive -->
+        <test-method status="PASS" signature="tstRegistrationPositive(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstRegistrationPositive" duration-ms="0" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderOne" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = angel, password = 123
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstRegistrationPositive -->
+        <test-method status="PASS" signature="tstRegistrationPositive(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstRegistrationPositive" duration-ms="0" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderOne" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = user, password = 123456
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstRegistrationPositive -->
+        <test-method status="PASS" signature="tstSignInNegative(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstSignInNegative" duration-ms="0" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderThree" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = 1, password = 1
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstSignInNegative -->
+        <test-method status="PASS" signature="tstSignInNegative(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstSignInNegative" duration-ms="0" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderThree" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = 2, password = 2
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstSignInNegative -->
+        <test-method status="PASS" signature="tstSignInPositive(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstSignInPositive" duration-ms="0" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderTwo" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = name, password = 1234
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstSignInPositive -->
+        <test-method status="PASS" signature="tstSignInPositive(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstSignInPositive" duration-ms="0" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderTwo" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = login, password = password
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstSignInPositive -->
+        <test-method status="PASS" signature="tstSignInPositive(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstSignInPositive" duration-ms="0" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderTwo" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = admin, password = admin
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstSignInPositive -->
+        <test-method status="PASS" signature="tstSignOutNegative(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstSignOutNegative" duration-ms="16" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderThree" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = 2, password = 2
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstSignOutNegative -->
+        <test-method status="PASS" signature="tstSignOutNegative(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstSignOutNegative" duration-ms="0" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderThree" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = 1, password = 1
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstSignOutNegative -->
+        <test-method status="PASS" signature="tstSignInNegative(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstSignInNegative" duration-ms="0" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderThree" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = day, password = night
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstSignInNegative -->
+        <test-method status="PASS" signature="tstSignOutPositive(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstSignOutPositive" duration-ms="0" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderTwo" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = admin, password = admin
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstSignOutPositive -->
+        <test-method status="PASS" signature="tstSignOutPositive(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstSignOutPositive" duration-ms="0" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderTwo" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = name, password = 1234
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstSignOutPositive -->
+        <test-method status="PASS" signature="tstSignOutNegative(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstSignOutNegative" duration-ms="0" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderThree" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = day, password = night
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstSignOutNegative -->
+        <test-method status="PASS" signature="tstSignOutPositive(com.epam.bean.User)[pri:0, instance:com.epam.dao.impl.TstClientService@4439f31e]" name="tstSignOutPositive" duration-ms="0" started-at="2017-02-06T02:52:42Z" data-provider="simpleDataProviderTwo" finished-at="2017-02-06T02:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login = login, password = password
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tstSignOutPositive -->
+      </class> <!-- com.epam.dao.impl.TstClientService -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

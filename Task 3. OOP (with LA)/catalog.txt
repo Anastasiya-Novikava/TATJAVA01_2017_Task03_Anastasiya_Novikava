@@ -1,0 +1,3 @@
+Oscar_nominees Film text_of_news
+New_song Disk text_of_news
+The_most_interesting_detective Book text_of_news

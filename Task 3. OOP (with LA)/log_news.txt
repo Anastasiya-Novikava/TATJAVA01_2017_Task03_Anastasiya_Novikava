@@ -1,0 +1,4 @@
+title = New_song, category = Disk, content = text_of_news
+title = The_most_interesting_detective, category = Book, content = text_of_news
+title = df, category = Film, content = dfgg
+title = Oscar_nominees, category = Film, content = text_of_news

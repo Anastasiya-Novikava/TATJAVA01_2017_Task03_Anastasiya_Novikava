@@ -1,0 +1,3 @@
+admin admin
+login password
+name 1234
